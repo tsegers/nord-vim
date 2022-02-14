@@ -672,6 +672,10 @@ hi! link ClapProviderId Type
 call s:hi("IndentGuidesEven", "", s:nord1_gui, "", s:nord1_term, "", "")
 call s:hi("IndentGuidesOdd", "", s:nord2_gui, "", s:nord3_term, "", "")
 
+" indent-blankline.nvim
+" > lukas-reineke/indent-blankline.nvim
+call s:hi("IndentBlanklineChar", s:nord1_gui, "", s:nord1_term, "", "", "")
+
 " vim-plug
 " > junegunn/vim-plug
 call s:hi("plugDeleted", s:nord11_gui, "", "", s:nord11_term, "", "")
